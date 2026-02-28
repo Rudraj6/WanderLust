@@ -143,6 +143,7 @@ app.use((err, req, res, next) =>{
     // res.status(statusCode).send(message);
 })
 
+console.log("MAP TOKEN:", process.env.MAP_TOKEN);
 
 
 
